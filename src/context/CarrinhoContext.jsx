@@ -1,3 +1,5 @@
+//provedor de dados da aplicação 
+
 import { createContext, useReducer, useState, useMemo, useEffect } from "react";
 import { carrinhoReducer } from "../reducers/carrinhoReducers";
 

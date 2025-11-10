@@ -18,7 +18,7 @@ const removeProdutoAction = (produtoId) => ({
 
 const updateQuantidadeAction = (produtoId, quantidade) => ({
   type: UPDATE_QUANTIDADE,
-  payload: { produtoId, quantidade}
+  payload: { produtoId, quantidade }
 })
 
 export const useCarrinhoContext = () => {
